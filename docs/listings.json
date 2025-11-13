@@ -2,13 +2,15 @@
   {
     "listing": "/topics/collectingstoringusingdata/collectingstoringusingdata.html",
     "items": [
-      "/topics/collectingstoringusingdata/datasov/datasov.html"
+      "/topics/collectingstoringusingdata/datasov/datasov.html",
+      "/topics/collectingstoringusingdata/datasov/slides/index.html"
     ]
   },
   {
-    "listing": "/topics/ethics/ethics.html",
+    "listing": "/topics/datatypes/datatypes.html",
     "items": [
-      "/topics/ethics/unethicalstudies/unethicalstudies.html"
+      "/topics/datatypes/categoricaldata/categoricaldata.html",
+      "/topics/datatypes/oraltraditions/oraltraditions.html"
     ]
   },
   {
@@ -18,10 +20,9 @@
     ]
   },
   {
-    "listing": "/topics/datatypes/datatypes.html",
+    "listing": "/topics/ethics/ethics.html",
     "items": [
-      "/topics/datatypes/categoricaldata/categoricaldata.html",
-      "/topics/datatypes/oraltraditions/oraltraditions.html"
+      "/topics/ethics/unethicalstudies/unethicalstudies.html"
     ]
   }
 ]

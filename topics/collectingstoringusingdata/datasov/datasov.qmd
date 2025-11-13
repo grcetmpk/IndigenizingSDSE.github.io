@@ -32,6 +32,28 @@ Data on Indigenous Peoples has long been used as a weapon against them. @anderse
 
 ------------------------------------------------------------------------
 
+## Quarto Slide Example
+
+Source Code
+
+```{=html}
+<style>
+      .slide-deck {
+        border: 3px solid #dee2e6;
+        width: 100%;
+        height: 475px; /* Adjust height as needed */
+      }
+</style>
+```
+
+<div>
+
+```{=html}
+    <iframe class="slide-deck" src="slides/"></iframe>
+```
+
+</div>
+
 ### References
 
 ::: {#refs}
