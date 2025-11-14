@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -142,10 +143,14 @@ div.csl-indent {
     <a class="nav-link" href="../../../guestbook.html"> 
 <span class="menu-text">Guestbook</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../additionalresources.html"> 
+<span class="menu-text">Additional Resources</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/UBC-STAT/STAT545.github.io"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/grcetmpk/IndigenizingSDSE.github.io"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -166,7 +171,8 @@ div.csl-indent {
    
   <ul>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#lecture-content" id="toc-lecture-content" class="nav-link" data-scroll-target="#lecture-content">Lecture Content</a>
+  <li><a href="#lecture-content" id="toc-lecture-content" class="nav-link" data-scroll-target="#lecture-content">Lecture Content</a></li>
+  <li><a href="#sample-slides" id="toc-sample-slides" class="nav-link" data-scroll-target="#sample-slides">Sample Slides</a>
   <ul class="collapse">
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
@@ -197,17 +203,51 @@ div.csl-indent {
 
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>Variables related to race and ethnicity are present in most studies involving human data. However the the lack of standardized guidelines in including such variables in analyses can lead to biased inferences for many underrepresented populations <span class="citation" data-cites="sharghi2024race">(<a href="#ref-sharghi2024race" role="doc-biblioref">Sharghi et al. 2024</a>)</span>. Oftentimes, race and ethnicity categories are coarsened to have a more reasonable number of possible levels., thus omitting complex racial and ethnic identities which are grouped into broader categories. These may not account for the unique lived experiences of smaller or mixed-race identities) <span class="citation" data-cites="sharghi2024race">(<a href="#ref-sharghi2024race" role="doc-biblioref">Sharghi et al. 2024</a>)</span>. Such simplifications may lead marginalized groups to be underrepresented in studies, furthering the feeling of invisibility and a lack of belonging <span class="citation" data-cites="sharghi2024race">(<a href="#ref-sharghi2024race" role="doc-biblioref">Sharghi et al. 2024</a>)</span>.</p>
+<p>We explicitly define <strong>race</strong> as a group of people who are arbitrarily categorized according to common physical characteristics, regardless of language, culture or nationality, as per Statistics Canada. We define <strong>ethnicity</strong> as the shared cultural, linguistic or religious characteristics of a group of people having a common history, heritage or ancestry. While these terms are often used interchangeably, there is a distinct difference which we emphasize here.</p>
+<p>The ways in which we present classifications of variables related to both race and ethnicity can have profound impacts on marginalized communities. “White” is frequently shown at the top of tables, and typically used as a reference group to which other groups are compared <span class="citation" data-cites="sharghi2024race">(<a href="#ref-sharghi2024race" role="doc-biblioref">Sharghi et al. 2024</a>)</span>. Doing so can reinforce ideas of white supremacy, stemming from Colonialism.</p>
+<p>Classifications and taxonomies were key elements of colonization over Indigenous Peoples. Colonial officials in Canada, Australia, New Zealand, and the United States used the power of quantitative data to “order” and “explain” Indigenous Peoples <span class="citation" data-cites="andersen_2025">(<a href="#ref-andersen_2025" role="doc-biblioref">Andersen et al. 2025</a>)</span>. In the United States, American Indian/Alaska Native identity is often not considered as a category when variables on race are collected, resulting in the erasure of American Indian/Alaska Native Peoples in studies <span class="citation" data-cites="sharghi2024race">(<a href="#ref-sharghi2024race" role="doc-biblioref">Sharghi et al. 2024</a>)</span>.</p>
+<p>In Canada, Métis have typically been recognised as a “mixed-descent identity”, which undermines the Métis Nation as a self-governing Indigenous nation with associated rights <span class="citation" data-cites="andersen_2025">(<a href="#ref-andersen_2025" role="doc-biblioref">Andersen et al. 2025</a>)</span>.</p>
+<p>There have been ongoing discussions on how to appropriately include considerations of race and ethnicity into studies, including <a href="https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/multiculturalism-anti-racism/anti-racism/anti-racism-hub/anti-racism-stats-and-research/arda_categoricalraceethnicityvariables2023.pdf">a guide for researchers in British Columbia.</a></p>
+<p>A guide summarizing how Indigenous Peoples were represented in the Canadian Census from 1870 to 2021, see <span class="citation" data-cites="orlandini2021guide">Orlandini, Cooper, and Manuel (<a href="#ref-orlandini2021guide" role="doc-biblioref">2021</a>)</span>.</p>
 </section>
 <section id="lecture-content" class="level2">
 <h2 class="anchored" data-anchor-id="lecture-content">Lecture Content</h2>
 <ul>
-<li></li>
+<li><p>Define race</p></li>
+<li><p>Define ethnicity</p></li>
+<li><p>Discuss how variables with many categories may be desirable to condense into broader categories from a statistical standpoint</p></li>
+<li><p>Discuss how this may impact marginalized communities, particularly Indigenous Peoples</p></li>
+<li><p>Discuss how the way we present categories can contribute to damaging perceptions of marginalized communities, including Indigenous Peoples.</p></li>
+<li><p>Provide resources for students to learn how to appropriately include factors related to race and ethnicity in their own research (if applicable).</p></li>
 </ul>
+</section>
+<section id="sample-slides" class="level2">
+<h2 class="anchored" data-anchor-id="sample-slides">Sample Slides</h2>
+<p><a href="https://github.com/grcetmpk/IndigenizingSDSE.github.io/blob/main/topics/datatypes/categoricaldata/categoricaldata.qmd">Source Code</a></p>
+<style>
+      .slide-deck {
+        border: 3px solid #dee2e6;
+        width: 100%;
+        height: 475px; /* Adjust height as needed */
+      }
+</style>
+<div>
+    <iframe class="slide-deck" src="slides/"></iframe>
+</div>
 <hr>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References</h3>
-<div id="refs" role="list">
-
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-andersen_2025" class="csl-entry" role="listitem">
+Andersen, C., M. Walter, T. Kukutai, and C. Gabel. 2025. <em>Indigenous <span>Statistics</span></em>. 2nd ed. From <span>Data</span> <span>Deficits</span> to <span>Data</span> <span>Sovereignty</span>. Routledge. <a href="https://doi.org/10.4324/9781003173342">https://doi.org/10.4324/9781003173342</a>.
+</div>
+<div id="ref-orlandini2021guide" class="csl-entry" role="listitem">
+Orlandini, Rosa, Alexandra Cooper, and Kevin Manuel. 2021. <span>“Guide on Ethnic, Racial, and Indigenous Variables in the Census of Canada: 1870 to 2021.”</span>
+</div>
+<div id="ref-sharghi2024race" class="csl-entry" role="listitem">
+Sharghi, Sima, Shokoufeh Khalatbari, Amy Laird, Jodi Lapidus, Felicity T Enders, Jareen Meinzen-Derr, Amanda L Tapia, and Jody D Ciolino. 2024. <span>“Race, Ethnicity, and Considerations for Data Collection and Analysis in Research Studies.”</span> <em>Journal of Clinical and Translational Science</em> 8 (1): e182.
+</div>
 </div>
 
 

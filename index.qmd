@@ -16,6 +16,6 @@ We will be providing tools that will allow educators to confidently and appropri
 
 3.  Appropriately use Indigenous data in classroom examples
 
-Modules are create for various statistical topics, so that they can be used across a variety of courses and levels.
+Modules are create for various statistical topics, so that they can be used across a variety of courses and levels. Please sign the [Guestbook](guestbook.qmd) to let us know how you plan to use the materials from this project in your classroom/work!
 
 This work is done in consultation with the [Xwi7xqa Library](https://xwi7xwa.library.ubc.ca/) and the [CTLT Indigenous Initatives](https://indigenousinitiatives.ctlt.ubc.ca/) team at the University of British Columbia.

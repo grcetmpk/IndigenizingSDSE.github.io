@@ -31,11 +31,11 @@
     "text": "Lecture Content\n\nWhen talking about data management, explicitly define Indigenous Data Sovereignty\nTalk about the historical misuse of data on Indigenous Peoples, and the impacts of studies on their (and other marginalized) communities"
   },
   {
-    "objectID": "topics/collectingstoringusingdata/datasov/datasov.html#quarto-slide-example",
-    "href": "topics/collectingstoringusingdata/datasov/datasov.html#quarto-slide-example",
+    "objectID": "topics/collectingstoringusingdata/datasov/datasov.html#sample-slides",
+    "href": "topics/collectingstoringusingdata/datasov/datasov.html#sample-slides",
     "title": "Data Sovereignty",
-    "section": "Quarto Slide Example",
-    "text": "Quarto Slide Example\nSource Code\n\n\n    \n\n\nReferences\n\n\nAndersen, C., M. Walter, T. Kukutai, and C. Gabel. 2025. Indigenous Statistics. 2nd ed. From Data Deficits to Data Sovereignty. Routledge. https://doi.org/10.4324/9781003173342.\n\n\nKukutai, Tahu, and John Taylor. 2016. Indigenous Data Sovereignty: Toward an Agenda. ANU press.\n\n\nRodriguez-Lonebear, Desi. 2016. “Building a Data Revolution in Indian Country.” Indigenous Data Sovereignty: Toward an Agenda 14: 253–72."
+    "section": "Sample Slides",
+    "text": "Sample Slides\nSource Code\n\n\n    \n\n\nReferences\n\n\nAndersen, C., M. Walter, T. Kukutai, and C. Gabel. 2025. Indigenous Statistics. 2nd ed. From Data Deficits to Data Sovereignty. Routledge. https://doi.org/10.4324/9781003173342.\n\n\nKukutai, Tahu, and John Taylor. 2016. Indigenous Data Sovereignty: Toward an Agenda. ANU press.\n\n\nRodriguez-Lonebear, Desi. 2016. “Building a Data Revolution in Indian Country.” Indigenous Data Sovereignty: Toward an Agenda 14: 253–72."
   },
   {
     "objectID": "topics/ethics/unethicalstudies/unethicalstudies.html#lecture-content",
@@ -56,17 +56,87 @@
     "href": "topics/datatypes/datatypes.html",
     "title": "Types of Data",
     "section": "",
-    "text": "The following modules can be integrated into lectures involving discussions around the types of data we encounter in practice:\n\n\n\n\n\n\n\nCategorical Data\n\n\n\n\n\n\n\n\n\n\n\n\n\nOral Traditions\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "The following modules can be integrated into lectures involving discussions around the types of data we encounter in practice:\n\n\n\n\n\n\n\nCategorical Variables: Example Slides\n\n\n\n\n\n\n\n\n\n\n\n\n\nCategorical Data\n\n\n\n\n\n\n\n\n\n\n\n\n\nOral Traditions\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Types of Data"
     ]
   },
   {
-    "objectID": "topics/datatypes/oraltraditions/oraltraditions.html#lecture-content",
-    "href": "topics/datatypes/oraltraditions/oraltraditions.html#lecture-content",
-    "title": "Oral Traditions",
+    "objectID": "topics/datatypes/categoricaldata/slides/index.html#categorical-variables",
+    "href": "topics/datatypes/categoricaldata/slides/index.html#categorical-variables",
+    "title": "Categorical Variables: Example Slides",
+    "section": "Categorical Variables",
+    "text": "Categorical Variables"
+  },
+  {
+    "objectID": "topics/datatypes/categoricaldata/slides/index.html#categorical-variables-race-and-ethnicity",
+    "href": "topics/datatypes/categoricaldata/slides/index.html#categorical-variables-race-and-ethnicity",
+    "title": "Categorical Variables: Example Slides",
+    "section": "Categorical Variables: Race and Ethnicity",
+    "text": "Categorical Variables: Race and Ethnicity"
+  },
+  {
+    "objectID": "topics/datatypes/categoricaldata/slides/index.html#categorical-variables-discussion",
+    "href": "topics/datatypes/categoricaldata/slides/index.html#categorical-variables-discussion",
+    "title": "Categorical Variables: Example Slides",
+    "section": "Categorical Variables: Discussion",
+    "text": "Categorical Variables: Discussion\n\nWhy might Indigenous Peoples want control over how their data is collected, stored, and used? Discuss in small groups.\n\n\n\nPossible Answer:\n\nWhile data can be used in a beneficial way for Indigenous communities, analyses using data on Indigenous Peoples often present with uncontrolled for biases as a result of colonization and a lack of understanding of Indigenous Peoples (Kukutai and Taylor 2016).\nSuch biases can be harmful to Indigenous Peoples."
+  },
+  {
+    "objectID": "topics/datatypes/categoricaldata/slides/index.html#continue-the-lecture",
+    "href": "topics/datatypes/categoricaldata/slides/index.html#continue-the-lecture",
+    "title": "Categorical Variables: Example Slides",
+    "section": "Continue the Lecture!",
+    "text": "Continue the Lecture!\n(Continue talking about Data Management as you would in a typical offering of your course.)"
+  },
+  {
+    "objectID": "topics/datatypes/categoricaldata/slides/index.html#references",
+    "href": "topics/datatypes/categoricaldata/slides/index.html#references",
+    "title": "Categorical Variables: Example Slides",
+    "section": "References",
+    "text": "References\n\n\n\n\nKukutai, Tahu, and John Taylor. 2016. Indigenous Data Sovereignty: Toward an Agenda. ANU press."
+  },
+  {
+    "objectID": "topics/researchmethods/ppdac/ppdac.html#lecture-content",
+    "href": "topics/researchmethods/ppdac/ppdac.html#lecture-content",
+    "title": "PPDAC",
     "section": "Lecture Content",
     "text": "Lecture Content\n\n\n\n\n\nReferences"
+  },
+  {
+    "objectID": "topics/researchmethods/indigenousmethods/indigenousmethods.html#lecture-content",
+    "href": "topics/researchmethods/indigenousmethods/indigenousmethods.html#lecture-content",
+    "title": "Indigenous Research Methods",
+    "section": "Lecture Content",
+    "text": "Lecture Content\n\n\n\n\n\nReferences"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Indigenizing Statistics and Data Science Education",
+    "section": "",
+    "text": "This website and its contents are a work in progress!\n\n\n\n\n\nWelcome to the launchpad of Indigenizing Statistics and Data Science Education (ISDSE). This is a hub for educators in the fields of Statistics and Data Science to learn about how they can incorporate Indigenous topics into their classrooms in a way that is organic and appropriate.\nWe will be providing tools that will allow educators to confidently and appropriately do the following:\n\nIncorporate Indigenous knowledge into their current curricula\nFacilitate discussions on the impact of data on Indigenous communities\nAppropriately use Indigenous data in classroom examples\n\nModules are create for various statistical topics, so that they can be used across a variety of courses and levels. Please sign the Guestbook to let us know how you plan to use the materials from this project in your classroom/work!\nThis work is done in consultation with the Xwi7xqa Library and the CTLT Indigenous Initatives team at the University of British Columbia."
+  },
+  {
+    "objectID": "additionalresources.html",
+    "href": "additionalresources.html",
+    "title": "Additional Resources",
+    "section": "",
+    "text": "First Nations Principles of Ownership, Control, Access, and Possession (OCAP)® online course (paid): https://fnigc.ca/ocap-training/"
+  },
+  {
+    "objectID": "guestbook.html",
+    "href": "guestbook.html",
+    "title": "Guestbook",
+    "section": "",
+    "text": "Sign the Guestbook!\n   Let us know how you plan to use the contents of this project, or leave a suggestion! \n  \n    \n      \n        \n          \n        \n        \n          \n        \n        \n          \n        \n      \n    \n    \n      \n    \n    Submit Form"
+  },
+  {
+    "objectID": "contributors.html",
+    "href": "contributors.html",
+    "title": "Contributors",
+    "section": "",
+    "text": "Grace Tompkins\nThis project was created by Dr. Grace Tompkins, Assistant Professor of Teaching at the University of British Columbia, situated on the traditional, ancestral, and unceded territory of the xʷməθkʷəy̓əm (Musqueam) people. She is a settler from Mi’kma’ki (Nova Scotia) who is passionate about inclusive education.\n\nThank you to the following people who consulted on this project and provided resources:\n\nSamantha Nock (Indigenous Initiatives, CTLT)\nKarleen Delaurier-Lyle (Xwi7xwa Librarian)"
   },
   {
     "objectID": "topics/researchmethods/researchmethods.html",
@@ -79,46 +149,39 @@
     ]
   },
   {
-    "objectID": "contributors.html",
-    "href": "contributors.html",
-    "title": "Contributors",
-    "section": "",
-    "text": "Grace Tompkins\nThis project was created by Dr. Grace Tompkins, Assistant Professor of Teaching at the University of British Columbia, situated on the traditional, ancestral, and unceded territory of the xʷməθkʷəy̓əm (Musqueam) people. She is a settler from Mi’kma’ki (Nova Scotia) who is passionate about inclusive education.\n\nThank you to the following people who consulted on this project and provided resources:\n\nSamantha Nock (Indigenous Initiatives, CTLT)\nKarleen Delaurier-Lyle (Xwi7xwa Librarian)"
-  },
-  {
-    "objectID": "guestbook.html",
-    "href": "guestbook.html",
-    "title": "Guestbook",
-    "section": "",
-    "text": "Sign the Guestbook!\n   Let us know how you plan to use the contents of this project, or leave a suggestion! \n  \n    \n      \n        \n          \n        \n        \n          \n        \n        \n          \n        \n      \n    \n    \n      \n    \n    Submit Form"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Indigenizing Statistics and Data Science Education",
-    "section": "",
-    "text": "This website and its contents are a work in progress!\n\n\n\n\n\nWelcome to the launchpad of Indigenizing Statistics and Data Science Education (ISDSE). This is a hub for educators in the fields of Statistics and Data Science to learn about how they can incorporate Indigenous topics into their classrooms in a way that is organic and appropriate.\nWe will be providing tools that will allow educators to confidently and appropriately do the following:\n\nIncorporate Indigenous knowledge into their current curricula\nFacilitate discussions on the impact of data on Indigenous communities\nAppropriately use Indigenous data in classroom examples\n\nModules are create for various statistical topics, so that they can be used across a variety of courses and levels.\nThis work is done in consultation with the Xwi7xqa Library and the CTLT Indigenous Initatives team at the University of British Columbia."
-  },
-  {
-    "objectID": "topics/researchmethods/indigenousmethods/indigenousmethods.html#lecture-content",
-    "href": "topics/researchmethods/indigenousmethods/indigenousmethods.html#lecture-content",
-    "title": "Indigenous Research Methods",
+    "objectID": "topics/datatypes/oraltraditions/oraltraditions.html#lecture-content",
+    "href": "topics/datatypes/oraltraditions/oraltraditions.html#lecture-content",
+    "title": "Oral Traditions",
     "section": "Lecture Content",
     "text": "Lecture Content\n\n\n\n\n\nReferences"
   },
   {
-    "objectID": "topics/researchmethods/ppdac/ppdac.html#lecture-content",
-    "href": "topics/researchmethods/ppdac/ppdac.html#lecture-content",
-    "title": "PPDAC",
-    "section": "Lecture Content",
-    "text": "Lecture Content\n\n\n\n\n\nReferences"
+    "objectID": "topics/datatypes/categoricaldata/categoricaldata.html",
+    "href": "topics/datatypes/categoricaldata/categoricaldata.html",
+    "title": "Categorical Data",
+    "section": "",
+    "text": "Variables related to race and ethnicity are present in most studies involving human data. However the the lack of standardized guidelines in including such variables in analyses can lead to biased inferences for many underrepresented populations (Sharghi et al. 2024). Oftentimes, race and ethnicity categories are coarsened to have a more reasonable number of possible levels., thus omitting complex racial and ethnic identities which are grouped into broader categories. These may not account for the unique lived experiences of smaller or mixed-race identities) (Sharghi et al. 2024). Such simplifications may lead marginalized groups to be underrepresented in studies, furthering the feeling of invisibility and a lack of belonging (Sharghi et al. 2024).\nWe explicitly define race as a group of people who are arbitrarily categorized according to common physical characteristics, regardless of language, culture or nationality, as per Statistics Canada. We define ethnicity as the shared cultural, linguistic or religious characteristics of a group of people having a common history, heritage or ancestry. While these terms are often used interchangeably, there is a distinct difference which we emphasize here.\nThe ways in which we present classifications of variables related to both race and ethnicity can have profound impacts on marginalized communities. “White” is frequently shown at the top of tables, and typically used as a reference group to which other groups are compared (Sharghi et al. 2024). Doing so can reinforce ideas of white supremacy, stemming from Colonialism.\nClassifications and taxonomies were key elements of colonization over Indigenous Peoples. Colonial officials in Canada, Australia, New Zealand, and the United States used the power of quantitative data to “order” and “explain” Indigenous Peoples (Andersen et al. 2025). In the United States, American Indian/Alaska Native identity is often not considered as a category when variables on race are collected, resulting in the erasure of American Indian/Alaska Native Peoples in studies (Sharghi et al. 2024).\nIn Canada, Métis have typically been recognised as a “mixed-descent identity”, which undermines the Métis Nation as a self-governing Indigenous nation with associated rights (Andersen et al. 2025).\nThere have been ongoing discussions on how to appropriately include considerations of race and ethnicity into studies, including a guide for researchers in British Columbia.\nA guide summarizing how Indigenous Peoples were represented in the Canadian Census from 1870 to 2021, see Orlandini, Cooper, and Manuel (2021)."
+  },
+  {
+    "objectID": "topics/datatypes/categoricaldata/categoricaldata.html#background",
+    "href": "topics/datatypes/categoricaldata/categoricaldata.html#background",
+    "title": "Categorical Data",
+    "section": "",
+    "text": "Variables related to race and ethnicity are present in most studies involving human data. However the the lack of standardized guidelines in including such variables in analyses can lead to biased inferences for many underrepresented populations (Sharghi et al. 2024). Oftentimes, race and ethnicity categories are coarsened to have a more reasonable number of possible levels., thus omitting complex racial and ethnic identities which are grouped into broader categories. These may not account for the unique lived experiences of smaller or mixed-race identities) (Sharghi et al. 2024). Such simplifications may lead marginalized groups to be underrepresented in studies, furthering the feeling of invisibility and a lack of belonging (Sharghi et al. 2024).\nWe explicitly define race as a group of people who are arbitrarily categorized according to common physical characteristics, regardless of language, culture or nationality, as per Statistics Canada. We define ethnicity as the shared cultural, linguistic or religious characteristics of a group of people having a common history, heritage or ancestry. While these terms are often used interchangeably, there is a distinct difference which we emphasize here.\nThe ways in which we present classifications of variables related to both race and ethnicity can have profound impacts on marginalized communities. “White” is frequently shown at the top of tables, and typically used as a reference group to which other groups are compared (Sharghi et al. 2024). Doing so can reinforce ideas of white supremacy, stemming from Colonialism.\nClassifications and taxonomies were key elements of colonization over Indigenous Peoples. Colonial officials in Canada, Australia, New Zealand, and the United States used the power of quantitative data to “order” and “explain” Indigenous Peoples (Andersen et al. 2025). In the United States, American Indian/Alaska Native identity is often not considered as a category when variables on race are collected, resulting in the erasure of American Indian/Alaska Native Peoples in studies (Sharghi et al. 2024).\nIn Canada, Métis have typically been recognised as a “mixed-descent identity”, which undermines the Métis Nation as a self-governing Indigenous nation with associated rights (Andersen et al. 2025).\nThere have been ongoing discussions on how to appropriately include considerations of race and ethnicity into studies, including a guide for researchers in British Columbia.\nA guide summarizing how Indigenous Peoples were represented in the Canadian Census from 1870 to 2021, see Orlandini, Cooper, and Manuel (2021)."
   },
   {
     "objectID": "topics/datatypes/categoricaldata/categoricaldata.html#lecture-content",
     "href": "topics/datatypes/categoricaldata/categoricaldata.html#lecture-content",
     "title": "Categorical Data",
     "section": "Lecture Content",
-    "text": "Lecture Content\n\n\n\n\n\nReferences"
+    "text": "Lecture Content\n\nDefine race\nDefine ethnicity\nDiscuss how variables with many categories may be desirable to condense into broader categories from a statistical standpoint\nDiscuss how this may impact marginalized communities, particularly Indigenous Peoples\nDiscuss how the way we present categories can contribute to damaging perceptions of marginalized communities, including Indigenous Peoples.\nProvide resources for students to learn how to appropriately include factors related to race and ethnicity in their own research (if applicable)."
+  },
+  {
+    "objectID": "topics/datatypes/categoricaldata/categoricaldata.html#sample-slides",
+    "href": "topics/datatypes/categoricaldata/categoricaldata.html#sample-slides",
+    "title": "Categorical Data",
+    "section": "Sample Slides",
+    "text": "Sample Slides\nSource Code\n\n\n    \n\n\n\nReferences\n\n\nAndersen, C., M. Walter, T. Kukutai, and C. Gabel. 2025. Indigenous Statistics. 2nd ed. From Data Deficits to Data Sovereignty. Routledge. https://doi.org/10.4324/9781003173342.\n\n\nOrlandini, Rosa, Alexandra Cooper, and Kevin Manuel. 2021. “Guide on Ethnic, Racial, and Indigenous Variables in the Census of Canada: 1870 to 2021.”\n\n\nSharghi, Sima, Shokoufeh Khalatbari, Amy Laird, Jodi Lapidus, Felicity T Enders, Jareen Meinzen-Derr, Amanda L Tapia, and Jody D Ciolino. 2024. “Race, Ethnicity, and Considerations for Data Collection and Analysis in Research Studies.” Journal of Clinical and Translational Science 8 (1): e182."
   },
   {
     "objectID": "topics/machinelearning/bigdata/bigdata.html#lecture-content",

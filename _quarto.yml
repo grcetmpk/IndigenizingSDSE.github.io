@@ -11,9 +11,10 @@ website:
       - sidebar:topics
       - contributors.qmd
       - guestbook.qmd
+      - additionalresources.qmd
     
     right:
-      - href: "https://github.com/UBC-STAT/STAT545.github.io"
+      - href: "https://github.com/grcetmpk/IndigenizingSDSE.github.io"
         icon: github
 
 
