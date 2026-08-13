@@ -20,6 +20,6 @@ This work is done in consultation with the [Xwi7xqa Library](https://xwi7xwa.lib
 
 ## Where to Start
 
-A good place to start is reviewing the role of the [CLassroom Climate](classroomclimate.qmd).
+A good place to start is reviewing the role of the [Classroom Climate](classroomclimate.qmd).
 
 Then, you can navigate through the Statistical Topics and related Subtopics.

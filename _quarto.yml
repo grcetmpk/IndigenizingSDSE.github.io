@@ -26,7 +26,7 @@ website:
       title: "Statistical Topics"
       style: "docked"
       background: light
-      collapse-level: 2
+      collapse-level: 3
       contents: 
         - topics/collectingstoringusingdata/collectingstoringusingdata.qmd
         - topics/datatypes/datatypes.qmd
@@ -41,7 +41,7 @@ website:
       contents: 
         - subtopics/datasov/datasov.qmd
         - subtopics/categoricaldata/categoricaldata.qmd
-        - subtopics/oraltraditions/oraltraditions.qmd
+        - subtopics/traditionaldata/traditionaldata.qmd
 format:
   html:
     theme: [litera, brand]

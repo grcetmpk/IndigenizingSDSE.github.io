@@ -20,7 +20,7 @@ glossary:
   data-bs-content="one of three recognized Indigenous Peoples in Canada, which includes Status and non-Status Indians. There are over 630 First Nations communities in Canada, which represent more than 50 Nations and 50 Indigenous languages.">First Nations</span>'
 
   PII: '<span class="glossary-term" 
-  data-bs-toggle="popover" title="personal identifying information (PII)" 
+  data-bs-toggle="popover" title="Personal identifying information (PII)" 
   data-bs-content="any data that can be used to identify a specific individual, either on its own or when combined with other information.">personal identifying information (PII) </span>'
 
   DSA: '<span class="glossary-term" 
@@ -33,15 +33,15 @@ glossary:
 
 
   Race: '<span class="glossary-term" 
-  data-bs-toggle="popover" title="race" 
+  data-bs-toggle="popover" title="Race" 
   data-bs-content=" a group of people who are arbitrarily categorized according to common physical characteristics, regardless of language, culture or nationality, as per Statistics Canada.">race </span>'
 
   Ethnicity: '<span class="glossary-term" 
-  data-bs-toggle="popover" title="ethnicity" 
+  data-bs-toggle="popover" title="Ethnicity" 
   data-bs-content=" the shared cultural, linguistic or religious characteristics of a group of people having a common history, heritage or ancestry.">ethnicity </span>'
 
   MarginalizedCommunities: '<span class="glossary-term" 
-  data-bs-toggle="popover" title="marginalized communities" 
+  data-bs-toggle="popover" title="Marginalized communities" 
   data-bs-content=" groups of people who are systematically excluded, disadvantaged, or discriminated against.">marginalized communities </span>'
 
 

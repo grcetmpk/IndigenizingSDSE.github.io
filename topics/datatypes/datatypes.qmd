@@ -7,7 +7,7 @@ listing:
     fields: [title, description]
     contents: 
       - ../../subtopics/categoricaldata/categoricaldata.qmd
-      - ../../subtopics/oraltraditions/oraltraditions.qmd
+      - ../../subtopics/traditionaldata/traditionaldata.qmd
     type: grid
     grid-item-border: true
     sort: false
