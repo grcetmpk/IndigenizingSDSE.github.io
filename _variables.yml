@@ -32,3 +32,16 @@ glossary:
   data-bs-content=" the organization responsible for receiving and maintaining the Data and First Nation Data shared under the data sharing agreement.">data steward </span>'
 
 
+  Race: '<span class="glossary-term" 
+  data-bs-toggle="popover" title="race" 
+  data-bs-content=" a group of people who are arbitrarily categorized according to common physical characteristics, regardless of language, culture or nationality, as per Statistics Canada.">race </span>'
+
+  Ethnicity: '<span class="glossary-term" 
+  data-bs-toggle="popover" title="ethnicity" 
+  data-bs-content=" the shared cultural, linguistic or religious characteristics of a group of people having a common history, heritage or ancestry.">ethnicity </span>'
+
+  MarginalizedCommunities: '<span class="glossary-term" 
+  data-bs-toggle="popover" title="marginalized communities" 
+  data-bs-content=" groups of people who are systematically excluded, disadvantaged, or discriminated against.">marginalized communities </span>'
+
+

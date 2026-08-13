@@ -9,6 +9,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: classroomclimate.qmd
+        text: Classroom Climate
       - sidebar:topics
       - sidebar:subtopics
       - glossary/glossary.qmd

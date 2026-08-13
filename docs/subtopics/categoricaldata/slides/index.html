@@ -29,7 +29,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-0fde88a82f0356838740f155f1088782.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -122,6 +142,17 @@
       margin-right: 0; 
     }
   </style>
+  <style>
+  /* Increase specificity by targeting the .reveal .slide container */
+  .reveal .slide .callout-body,
+  .reveal .slide .callout-content {
+    font-size: 1.7rem !important;
+  }
+
+  .reveal .slide .callout-title {
+    font-size: 1.3rem !important;
+  }
+  </style>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -139,33 +170,214 @@ Grace Tompkins
 </div>
 
 </section>
+<section id="land-acknowledgement" class="slide level2 nostretch">
+<h2>Land Acknowledgement</h2>
+<p>We acknowledging that the land on which we gather is the traditional, ancestral, and unceded territory of the xwməθkwəy̓əm (Musqueam) People.<br>
+</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/clipboard-3356523468.jpeg" class="quarto-figure quarto-figure-center" width="500"></p>
+</figure>
+</div>
+<p>Throughout this course, we will be weaving Indigenous topics into more “traditional” course material. I myself am a settler and am new to some of these topics. I am grateful for the opportunity to learn and grow with you.</p>
+</section>
+<section id="classroom-policy" class="slide level2">
+<h2>Classroom Policy</h2>
+<p>As stated in the syllabus, there is a <strong>zero tolerance policy for disrespectful behaviour in this classroom</strong>.</p>
+<ul>
+<li>This includes within physical the classroom community (your peers, TAs, instructors, support staff) and online (discussion forums, social media).<br>
+</li>
+</ul>
+<p>Some sensitive topics will be discussed throughout this course.</p>
+<ul>
+<li><p>We are all learners and it is okay to make mistakes.</p></li>
+<li><p>We will offer each other corrections politely, and I ask that you keep an open mind as we all continue to learn in this space.</p></li>
+</ul>
+<p>This classroom is a safe space. <u><strong>You are welcome here.</strong></u></p>
+</section>
+<section id="learning-outcomes" class="slide level2">
+<h2>Learning Outcomes:</h2>
+<p>By the end of this lectures, students will be able to:</p>
+<ul>
+<li><p>Define a categorical variable</p></li>
+<li><p>Identify when a variable is categorical</p></li>
+<li><p>Identify when a categorical variable may cause issues for analysis</p></li>
+<li><p>Justify coarsening the number of levels of a categorical variable</p></li>
+<li><p>Identify when such coarsening may be inappropriate from a cultural standpoint</p></li>
+</ul>
+</section>
 <section id="categorical-variables" class="slide level2">
 <h2>Categorical Variables</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Definition</strong></p>
+</div>
+<div class="callout-content">
+<p>A variable is considered <strong>categorical</strong> when it can take on a finite number of distinct levels or categories.</p>
+</div>
+</div>
+</div>
+<ul>
+<li><p>These are <strong>qualitative</strong> in nature, meaning the levels are descriptive, even if represented by a number.</p></li>
+<li><p>They may have no specific order (<strong>nominal</strong>) or have an natural ordering (<strong>ordinal</strong>)</p></li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li><p>Highest completed level of education: secondary, post-secondary, graduate (ordinal)</p></li>
+<li><p>Eye colour: brown, blue, green, hazel, other (nominal)</p></li>
+</ul>
+</section>
+<section id="categorical-variables-1" class="slide level2">
+<h2>Categorical Variables</h2>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Discussion</strong></p>
+</div>
+<div class="callout-content">
+<p>Classify the following variables as being either <strong>continuous</strong> or <strong>categorical</strong>:</p>
+<ul>
+<li><p>Commute time</p></li>
+<li><p>Commute method</p></li>
+<li><p>Birthplace</p></li>
+<li><p>Age</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="categorical-variables-number-of-levels" class="slide level2">
+<h2>Categorical Variables: Number of Levels</h2>
+<ul>
+<li><p>Some categorical variables, like birthplace, can have a lot of unique levels.</p>
+<ul>
+<li>Consider the case where we have data on 100 individuals with 30 different birthplaces.</li>
+<li>If we tried to analyze the relationship between birthplace and another variable (say, income), we may run into issues where we do not have enough data in some groups to identify meaningful differences between birthplaces.</li>
+</ul></li>
+<li><p>There is no universally agreed upon rule as to what constitutes having “too many levels” in a categorical variable, as it often depends on the method(s) being used.</p></li>
+<li><p>Some statisticians argue that you must have &gt;10 observations per level (in our example, this means having 10 or more people in each birthplace)</p></li>
+</ul>
+</section>
+<section id="categorical-variables-number-of-levels-1" class="slide level2">
+<h2>Categorical Variables: Number of Levels</h2>
+<p>So… how can you overcome this issue?</p>
+<ol type="1">
+<li>Reduce the number of levels, for example:</li>
+</ol>
+<ul>
+<li><p>Use domain knowledge to combine similar levels</p></li>
+<li><p>Group categories with low frequency together</p></li>
+<li><p>Use a statistical method to combine similar levels</p></li>
+</ul>
+<ol start="2" type="1">
+<li><p>(Advanced) Use a regularization technique</p></li>
+<li><p>(Advanced: for hierarchical data) Use the levels as a random effect</p></li>
+</ol>
 </section>
 <section id="categorical-variables-race-and-ethnicity" class="slide level2">
 <h2>Categorical Variables: Race and Ethnicity</h2>
+<p>Variables related to race and ethnicity are often collected for studies involving human data.</p>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Definition</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Race:</strong> a group of people who are arbitrarily categorized according to common physical characteristics, regardless of language, culture or nationality, as per Statistics Canada.</p>
+<p><strong>Ethnicity</strong>: the shared cultural, linguistic or religious characteristics of a group of people having a common history, heritage or ancestry. While these terms are often used interchangeably, there is a distinct difference which we emphasize here.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="categorical-variables-race-and-ethnicity-1" class="slide level2">
+<h2>Categorical Variables: Race and Ethnicity</h2>
+<ul>
+<li><p>There are a lot of unique races and ethnicities that one can collect information on</p></li>
+<li><p>Oftentimes, these categories are coarsened to have a more reasonable number of possible levels</p>
+<ul>
+<li><p>Doing so can omit complex racial and ethnic identities which are grouped into broader categories.</p></li>
+<li><p>Coarsening the levels may also not acknowledge the unique lived experiences of smaller or mixed-race identities <span class="citation" data-cites="sharghi2024race">[<a href="#/references" role="doc-biblioref" onclick="">1</a>]</span>.</p></li>
+</ul></li>
+<li><p>Such simplifications may lead marginalized groups to be underrepresented in studies, furthering the feeling of invisibility and a lack of belonging <span class="citation" data-cites="sharghi2024race">[<a href="#/references" role="doc-biblioref" onclick="">1</a>]</span>.</p></li>
+</ul>
 </section>
 <section id="categorical-variables-discussion" class="slide level2">
 <h2>Categorical Variables: Discussion</h2>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Discussion</strong></p>
+</div>
+<div class="callout-content">
+<p>In Canada, Métis have typically been recognized as a “mixed-descent identity” in studies <span class="citation" data-cites="andersen_2025">[<a href="#/references" role="doc-biblioref" onclick="">2</a>]</span>. How might this affect the Métis population?</p>
+</div>
+</div>
+</div>
+<p>Possible answer:</p>
 <ul>
-<li>Why might Indigenous Peoples want control over how their data is collected, stored, and used? Discuss in small groups.</li>
+<li class="fragment"><p>This undermines the Métis Nation as a self-governing Indigenous nation with associated rights and unique cultural experiences</p></li>
+<li class="fragment"><p>For a summary on how Indigenous Peoples were represented in the Canadian Census from 1870 to 2021, see <span class="citation" data-cites="orlandini2021guide">[<a href="#/references" role="doc-biblioref" onclick="">3</a>]</span>.</p></li>
 </ul>
+</section>
+<section id="categorical-variables-discussion-1" class="slide level2">
+<h2>Categorical Variables: Discussion</h2>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Discussion</strong></p>
+</div>
+<div class="callout-content">
+<p>White or Caucasian is frequently shown at the top of tables listing race and ethnicity, and is typically used as a reference group to which other groups are compared <span class="citation" data-cites="sharghi2024race">[<a href="#/references" role="doc-biblioref" onclick="">1</a>]</span>. Discuss in a small group how this may impact marginalized populations.</p>
+</div>
+</div>
+</div>
+<p>Possible answer:</p>
 <ul>
-<li class="fragment">Possible Answer:
+<li class="fragment">Placing White at the top of a table or treating it as a reference category can reinforce ideas of white supremacy, stemming from Colonization.</li>
+</ul>
+</section>
+<section id="categorical-variables-discussion-2" class="slide level2">
+<h2>Categorical Variables: Discussion</h2>
 <ul>
-<li class="fragment"><em>While data can be used in a beneficial way for Indigenous communities, analyses using data on Indigenous Peoples often present with uncontrolled for biases as a result of colonization and a lack of understanding of Indigenous Peoples</em> <span class="citation" data-cites="kukutai_2016">[@kukutai_2016]</span>.</li>
-<li class="fragment"><em>Such biases can be harmful to Indigenous Peoples</em>.</li>
-</ul></li>
+<li><p>There have been ongoing discussions on how to appropriately include considerations of race and ethnicity into studies, including <a href="https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/multiculturalism-anti-racism/anti-racism/anti-racism-hub/anti-racism-stats-and-research/arda_categoricalraceethnicityvariables2023.pdf">a guide for researchers in British Columbia.</a>.</p></li>
+<li><p>Use your best judgement, and consider these impacts when handling data on race and ethnicity.</p></li>
+<li><p>Consider consulting with Indigenous data stewards, ensuring you are respecting the <a href="https://grcetmpk.github.io/indigenizing-stat-ed/subtopics/datasov/datasov.html">principals of OCAP® and Data Sovereignty</a>.</p></li>
 </ul>
 </section>
 <section id="continue-the-lecture" class="slide level2">
 <h2>Continue the Lecture!</h2>
-<p><em>(Continue talking about Data Management as you would in a typical offering of your course.)</em></p>
 </section>
-<section id="references" class="slide level2">
+<section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 
 
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-sharghi2024race" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">Sharghi S, Khalatbari S, Laird A, Lapidus J, Enders FT, Meinzen-Derr J, et al. Race, ethnicity, and considerations for data collection and analysis in research studies. Journal of Clinical and Translational Science 2024;8:e182.</div>
+</div>
+<div id="ref-andersen_2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">Andersen C, Walter M, Kukutai T, Gabel C. Indigenous <span>Statistics</span>. 2nd ed. Routledge; 2025. <a href="https://doi.org/10.4324/9781003173342">https://doi.org/10.4324/9781003173342</a>.</div>
+</div>
+<div id="ref-orlandini2021guide" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">Orlandini R, Cooper A, Manuel K. Guide on ethnic, racial, and indigenous variables in the census of canada: 1870 to 2021 2021.</div>
+</div>
+</div>
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">

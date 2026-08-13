@@ -1,0 +1,34 @@
+---
+title: "Classroom Climate"
+format: html
+---
+
+## What is Classroom Climate?
+
+Classroom climate is a framework that invites instructors to consider adding contextual layers of recognizing place, histories, policies, and social relations within and beyond the classroom. This framework considers that a university classroom is a complex space that is not static or neutral. 
+
+
+## Role of Instructors 
+
+The instructor is a model for the way that the class will engage with course materials, topics, their peers, and the land. 
+
+At UBC, students were interviewed for an undergraduate directed studies course and asked to reflect on their most memorable experiences of problematic classroom discussions of Aboriginal issues. This directed studies course turned into a larger project, titled [What I Learned in Class Today](https://intheclass.arts.ubc.ca/about-the-project/). In these reflections, students identified the value of knowing that their instructors are working toward learning ore about local and national Indigenous histories. 
+
+Instructors cannot control or predict every aspect of what may happen in the classroom. However, instructors do have control over the classroom environment they create.
+
+
+## Strategies for Classroom Implementation
+
+Students may not understand why we are talking about Indigenous content and colonialism in a statistics or data science course. It is important to set expectations early in the course. Here are a few suggestions on how to do this:
+
+-   Include Indigenous topics, such as data sovereignty, explicitly in your course outline
+-   Include a [land acknowledgement](https://guides.library.ubc.ca/distance-research-xwi7xwa/landacknowledgements) and state your [positionality](https://intheclass.arts.ubc.ca/renewed-project/discussion-topics-prompts/discussion-prompts-positionality/), especially if you are a settler discussing these topics.
+-   Set the standard and be vulnerable: let your students know that you are also a learner, and it's okay to make mistakes (so long as you're open to learn).
+
+In extreme cases, students may be resistant to the material handle the topic inappropriately. To avoid this, have a **clear classroom policy** in your syllabus and in your introduction slides that states a zero-tolerance policy disrespectful behaviour. The policy should include interactions within the the classroom (with peers, instructors, TAs, support staff) and any online spaces (forums, social media, discussion boards). See the sample slides below for an example.
+
+
+## Resources
+
+-  [Classroom Climate (UBC)](https://indigenousinitiatives.sites.olt.ubc.ca/files/2016/09/Classroom-Climate-Handout-v.8.pdf)
+

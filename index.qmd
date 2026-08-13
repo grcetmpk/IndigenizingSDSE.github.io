@@ -2,9 +2,7 @@
 title: "Indigenizing Statistics and Data Science Education"
 ---
 
-**This website and its contents are a work in progress!**
-
-![](images/wip.png){fig-align="center"}
+![](images/totem-ubc.png.jpeg){fig-align="center"}
 
 Welcome to the launchpad of ***Indigenizing Statistics and Data Science Education*** (ISDSE). This is a hub for educators in the fields of Statistics and Data Science to learn about how they can incorporate Indigenous topics into their classrooms in a way that is **organic** and **appropriate.**
 
@@ -19,3 +17,9 @@ We will be providing tools that will allow educators to confidently and appropri
 Modules are create for various statistical topics, so that they can be used across a variety of courses and levels. Please sign the [Guestbook](guestbook.qmd) to let us know how you plan to use the materials from this project in your classroom/work!
 
 This work is done in consultation with the [Xwi7xqa Library](https://xwi7xwa.library.ubc.ca/) and the [CTLT Indigenous Initatives](https://indigenousinitiatives.ctlt.ubc.ca/) team at the University of British Columbia.
+
+## Where to Start
+
+A good place to start is reviewing the role of the [CLassroom Climate](classroomclimate.qmd).
+
+Then, you can navigate through the Statistical Topics and related Subtopics.

@@ -92,15 +92,7 @@ In 2004, many of the blood vials were sent back to the Nuu-chah-nulth people, an
 
 -   Share examples of data sharing agreements that could be used with Indigenous communities and research partners
 
-## Strategies for Classroom Implementation
 
-Students may not understand why we are talking about Indigenous content and colonialism in a data science course. It is important to set expectations early in the course. Here are a few suggestions on how to do this:
-
--   Include Indigenous topics, such as data sovereignty, explicitly in your course syllabus/outline
--   Include a [land acknowledgement](https://guides.library.ubc.ca/distance-research-xwi7xwa/landacknowledgements) and state your [positionality](https://intheclass.arts.ubc.ca/renewed-project/discussion-topics-prompts/discussion-prompts-positionality/), especially if you are a settler discussing these topics.
--   Set the standard and who vulnerability: let your students know that you are also a learner, and it's okay to make mistakes (so long as you're open to learn).
-
-In extreme cases, students may be resistant to the material handle the topic inappropriately. To avoid this, have a **clear classroom policy** in your syllabus and in your introduction slides that states a zero-tolerance policy disrespectful behaviour. The policy should include interactions within the the classroom (with peers, instructors, TAs, support staff) and any online spaces (forums, social media, discussion boards). See the sample slides below for an example.
 
 ## Sample Slides
 
