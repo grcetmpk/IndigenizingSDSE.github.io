@@ -24,7 +24,7 @@ csl: ../../../bibliography/elsevier-vancouver.csl
 
 ## Land Acknowledgement {.nostretch}
 
-We acknowledging that the land on which we gather is the traditional, ancestral, and unceded territory of the xwməθkwəy̓əm (Musqueam) People.\
+We acknowledge that the land on which we gather is the traditional, ancestral, and unceded territory of the xwməθkwəy̓əm (Musqueam) People.\
 
 ![](images/clipboard-3356523468.jpeg){fig-align="center" width="500"}
 
